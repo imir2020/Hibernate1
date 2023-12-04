@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TicketsDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+TicketsDaoTest.testSave()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.hibernate.Session.persist(Object)" because "TicketsDaoTest.session" is null
+	at TicketsDaoTest.testSave(TicketsDaoTest.java:43)
+
+TicketsDaoTest.testUpdate()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.hibernate.Session.persist(Object)" because "TicketsDaoTest.session" is null
+	at TicketsDaoTest.testUpdate(TicketsDaoTest.java:59)
+
